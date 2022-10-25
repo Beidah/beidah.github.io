@@ -109,6 +109,7 @@ h6 { font-size: 16px; }
 
 #navigation a {
   color: var(--mainText);
+  text-decoration: underline;
 }
 
 #navigation li {
@@ -201,19 +202,16 @@ h6 { font-size: 16px; }
   padding-bottom: 50px;
 }
 
-#preview-shadow{
-	background-color: var(--previewShadow);
-	max-width: 300px;
-	padding-left: 30px;
-	padding-top: 30px;
-}
-
 #preview {
-  width: 300px;
+  max-width: 300px;
   border: 1.5px solid #17a2b8;
   background-color: var(--previewBg);
   padding: 15px;
   position: relative;
+
+  -webkit-box-shadow: -30px -30px var(--previewShadow);
+  -moz-box-shadow: -30px -30px var(--previewShadow);
+  box-shadow: -30px -30px var(--previewShadow);
 }
 
 .corner {
