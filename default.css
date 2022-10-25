@@ -277,6 +277,7 @@ h6 { font-size: 16px; }
 
 .post {
   border: 1px solid var(--borderColor);
+  
   -webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
@@ -290,17 +291,17 @@ h6 { font-size: 16px; }
 }
 
 .post-preview {
-  background: #fff;
+  background: var(--mainColor);
   padding: 15px;
 }
 
 .post-title {
-  color: black;
+  color: var(--mainText);
   margin: 0;
 }
 
 .post-intro {
-  color: #4b5156;
+  color: var(--secondaryText);
   font-size: 14px;
 }
 
